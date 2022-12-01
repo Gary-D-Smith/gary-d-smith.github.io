@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Most Average Certificate</title>
+  	<link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+	<link rel="stylesheet" href="Styles.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="header">
+	<object id="header-svg" data="./Media/header.svg" width="100%" height="120%"> </object>
+</div>
+<img src="./Media/cert-collage.jpeg" width="100%" z-index=-1>
+<h5>A sample of the certificate dataset</h5>
+
+<div class="simple_center">
+	<object data="./Media/cert-def.svg" width="40%"> </object>
+</div>
+
+<p>In 2020, with the start of COVID, I had the opportunity to digitize tons of family history documents, including dozens of certificates dating back to the 1920’s. Upon further investigation, I found just over 100 certificates, ranging widely in their characteristics. This project is an attempt to further investigate and visualize this range in character.</p>
+
+<p class="list_title">There are a few things that define every certificate:
+<br> &emsp; ⍟ <a href="#aspect_ratio">Aspect Ratio</a>
+<br> &emsp; ⍟ <a href="#paper_color">Paper Color</a>
+<br> &emsp; ⍟ <a href="#font">Font</a>
+<br> &emsp; ⍟ <a href="#date">Date</a>
+<br> &emsp; ⍟ <a href="#purpose">Purpose</a>
+<br> &emsp; ⍟ <a href="#organization">Organization</a>
+<br> &emsp; ⍟ <a href="#introduction">Introduction</a>
+<br> &emsp; ⍟ <a href="#seal">Seal</a></p>
+
+<p>By averaging or compiling each element, we can build the “most average certificate."</p>
+
+<div class="average_section" id="aspect_ratio">
+	<object data="./Media/aspect-ratio.svg" width="40%"> </object>
+
+	<div class="content" id="cols">
+		<img src="./Media/ratios.png" width="30%" class="img_shadow">
+		<div id="second_col">
+			<p>To start creating an average certificate, we need an average canvas.</p>
+			<p>A majority of the certificates are landscape, and the portrait ones are distribued evenly though time.
+			The most popular ratio for certificates, by far, is 3x4.</p>
+			<object data="./Media/aspect-ratio-graph.svg" width="60%"> </object>
+		</div>
+	</div>
+	<div class="cert">
+		<object data="./Media/cert-1.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="paper_color">
+	<object data="./Media/paper-color.svg" width="40%"> </object>
+	<br>
+	<div class="simple_center">
+		<object data="./Media/paper-colors.svg" width="95%"> </object>
+	</div>
+	<p>Visualized above is the paper color of the certificates in chronological order. The colors range from dark browns to pale reds. By calculating the average RGB value from from the set, a clear trend from light tan to near-perfect white can be identified as time progresses. The average of all the certificate colors results in a neatrual tan.</p>
+	<div class="simple_center">
+		<object data="./Media/paper-comparison.svg" width="50%"> </object>
+	</div>
+	<div class="cert">
+		<object data="./Media/cert-2.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="font">
+	<object data="./Media/title-font.svg" width="40%"> </object>
+	<br>
+	<object data="./Media/letters-strip.svg" width="100%"> </object>
+	<p>Almost every certificate uses a different title font. While <span style="font-family:Old English Text; margin: 0;">Old English Text</span> shows up more than others, the variety is issemse. That can be best captured through the typefaces below, which compile the different glyphs  into a couple sets of characters – one for the 1900s and one for the 2000s.</p>
+	<div class="simple_center">
+		<object data="./Media/1900s-sample.svg" width="80%"> </object>
+		<p style="margin-top: -10px; margin-bottom: 10px;"><a href="./Fonts/1900s.otf" target="_blank">Download</a></p>
+	</div>
+	<div class="simple_center">
+		<object data="./Media/2000s-sample.svg" width="80%"> </object>
+		<p style="margin-top: -10px; margin-bottom: 10px;"><a href="./Fonts/2000s.otf" target="_blank">Download</a></p>
+	</div>
+	<p>By investigating the typefaces above, we can see how certificate design has grown more friendly to <span style="font-family:Helvetica-bold; margin: 0;">sans-serif</span>, in constast to the heavy representation of <span style="font-family:Old English Text; margin: 0;">Blackletter</span> in the 1900s. It is also notable to see the consistent inclusion of some <span style="font-family:Times; margin: 0; font-weight:bold">serif</span> glyphs in both typefaces.</p>
+	<div class="cert">
+		<object data="./Media/cert-3.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="date">
+	<object data="./Media/date.svg" width="40%"> </object>
+	<p>Dating back to the 1920s, this dataset of certificates cover over a century of documents. Shown below, without even looking at the purpose of each certificate, it can be seen that the majority result from time spent in school. From the 1940s when my grandparents were in school, to the 1980s when my parents were in school, and now to the 2020s, when I started high school.</p>
+	<div class=simple_center>
+		<img src="./Media/certificate-years.jpg" width="80%" class="img_shadow">
+	</div>
+	<p>Another interesting thing to investigate is the months the certificates were awarded. While there is a healthy distribution, a considerable amount of the dataset was awarded in the Spring and especially the month of May. This, again, supports the idea that most of the certificates result from school, which usually wraps up for the year around May.</p>
+	<div class=simple_center>
+		<img src="./Media/certificate-months.jpg" width="50%" style="padding-top: 15px; padding-left: 15px;" class="img_shadow">
+	</div>
+	<p>If we average all of these dates, the average date is calculated to be January 28, 1975.</p>
+	<div class="cert">
+		<object data="./Media/cert-4.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="purpose">
+	<object data="./Media/purpose.svg" width="40%"> </object>
+	<p>Most of the certificates were related to academics either directly or adjacently by being academic-related membership certificates. A closer look at the topics covered by the certificates can be seen below.</p>
+	<p>Using this data, our most average certificate will be a membership certificate.</p>
+	<div class=simple_center>
+		<img src="./Media/purposes.jpg" width="50%" style="padding: 15px;" class="img_shadow">
+	</div>
+	<div class="cert">
+		<object data="./Media/cert-3.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="organization">
+	<object data="./Media/organization.svg" width="40%"> </object>
+	<p>Most of the certificates were related to academics either directly or adjacently by being academic-related membership certificates. A closer look at the topics covered by the certificates can be seen below.</p>
+	<div class=simple_center>
+		<object data="./Media/word-cloud.svg" width="80%"> </object>
+	</div>
+	<p>https://app.inferkit.com/demo Results in...</p>
+	<div class=simple_center>
+		<object data="./Media/avg-org.svg" width="40%"> </object>
+	</div>
+	<div class="cert">
+		<object data="./Media/cert-3.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="introduction">
+	<object data="./Media/introduction.svg" width="40%"> </object>
+	<p>Every certificate has a professional “introduction statement” that either states its purpose or adresses the viewer. Some are pretty funny, like:</p>
+	
+	<h4>
+		&emsp; ⁍ &ensp; Know ye that the Worthy Noble
+		<br> &emsp; ⁍ &ensp;  To whom these presents shall come
+		<br> &emsp; ⁍ &ensp;  Hace contestar por este certificado que
+		<br> &emsp; ⁍ &ensp;  Know Ye that the well beloved brother
+		<br> &emsp; ⁍ &ensp;  Know all men by these presents
+	</h4>
+
+	<p>However, most were short and simple, with “This is to certify that” appearing in 19 of the certificates and “This certifies that” appearing in another 16.</p>
+
+	<p>After giving an AI all of these phrases and asking it to write another one, we get the average introduction for out certificate:</p>
+		
+	<div class=simple_center>
+		<object data="./Media/avg-intro.svg" width="38%"> </object>
+	</div>
+
+	<div class="cert">
+		<object data="./Media/cert-3.svg" width="25%"> </object>
+	</div>
+</div>
+
+<div class="average_section" id="seal">
+	<object data="./Media/seal.svg" width="40%"> </object>
+	<div class=simple_center>
+		<img src="./Media/all_seals.png" width="80%">
+	</div>
+	<p>It was a lot of fun to isolate and look at the different types of seals that spanned the dataset. They range greatly in their color, shape, iconography, and complexity.</p>
+	<div class=simple_center>
+		<img src="./Media/seal-shape-vis.png" width="60%">
+	</div>
+	<p>more text</p>
+	<div class=simple_center>
+		<img src="./Media/seal-color-vis.png" width="60%">
+	</div>
+	<p>more text</p>
+	<div class=simple_center>
+		<img src="./Media/seal-ribbon-vis.png" width="60%">
+	</div>
+	
+</div>
+
+
+<div class="average_section" id="summary">
+	<object data="./Media/most-average-header.svg" width="100%"> </object>
+	<p>It was a lot of fun to isolate and look at the different types of seals that spanned the dataset. They range greatly in their color, shape, iconography, and complexity.</p>
+	<div class=simple_center>
+		<img src="./Media/avg-certificate.svg" width="60%">
+		<form id="text_input">
+			<input type="text" value="Important Person">
+		</form>
+	</div>
+	<p>Concluding thoughs...
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br><br><br></p>
+</div>
+</body>
+<a href="https://www.garysmith.me/" target="_blank">
+	<div id="footer_img" class=simple_center>
+		<img id="personal_logo" src="./Media/gary.svg" width="8%">
+	</div>
+</a>
+</html>
