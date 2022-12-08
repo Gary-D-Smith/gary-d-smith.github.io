@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*
+@font-face {
+  font-family: "Atkinson";
+  src: url("./Fonts/AtkinsonHyperlegible_Regular.ttf" );
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Atkinson";
+  src: url("./Fonts/AtkinsonHyperlegible-Bold.ttf");
+  font-weight: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Atkinson";
+  src: url("./Fonts/AtkinsonHyperlegible-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson";
+  src: url("./Fonts/AtkinsonHyperlegible-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}*/
+
+@font-face {
+  font-family: "Old English Text";
+  src: url(./Fonts/OLDENGL.TTF);
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url(./Fonts/DancingScript.otf);
+}
+
+
+@font-face {
+  font-family: "1900s";
+  src: url(./Fonts/1900s.ttf);
+}
+
+@font-face {
+  font-family: "2000s";
+  src: url(./Fonts/2000s.ttf);
+}
+
+body {
+  background-color: #fffefc;
+}
+
+html {
+margin: 0;
+padding: 0;
+/*scroll-behavior: smooth;*/
+}
+*, *:before, *:after {
+margin: inherit;
+padding: inherit;
+}
+
+em {
+  margin: 0;
+}
+
+h4 {
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 25px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+  font-size: 28px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  align-content: right;
+}
+
+h5 {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: right;
+  color: black;
+  padding-right: 15px;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+  font-size: 27px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+s {
+  -webkit-text-stroke: 1px black;
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  margin: 0;
+  color: black;
+  letter-spacing: normal;
+  -webkit-transition: all .25s ease;
+}
+
+a:hover {
+  color: #ff8f15;
+  letter-spacing: 5px;
+  -webkit-transition: all .25s ease;
+}
+
+b {
+/*  color: #ff8f15;*/
+  font-weight: bold;
+  margin: 0;
+}
+
+.section_title {
+  display: flex;
+  -webkit-transition: all .25s ease;
+}
+
+.section_title:hover {
+  scale: 1.02;
+  margin-left: 5px;
+  -webkit-transition: all .25s ease;
+}
+
+.list_title {
+  margin-left: 17%;
+  margin-right: 17%;
+  font-style: italic;
+/*  -webkit-text-stroke: 0.5px black;*/
+}
+
+.header {
+  background-color: #222222;
+}
+
+#pop-out {
+  filter: drop-shadow(5px 20px 25px rgb(0 0 0 / 0.8));
+  position: sticky;
+  z-index: 100;
+}
+
+#header-svg {
+  filter: drop-shadow(5px 20px 25px rgb(0 0 0 / 0.8));
+}
+
+#cols {
+  display: flex;
+  align-items: center;
+}
+
+#second_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#personal_logo {
+  transform: scale(1) rotate(0);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+#personal_logo:hover {
+  transform: scale(1.2) rotate(3deg);
+  transition: all .4s ease;
+  filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 0.2));
+  -webkit-transition: all .4s ease;
+}
+
+#text_input {
+  padding-top: 0.6vw;
+  position: absolute;
+}
+
+#footer_img {
+  background-image: url(./Media/slice-collage.png);
+  background-size: 100%;
+  height: 125px;
+  background-position: center;
+  bottom: -1000px;
+  width: 100%;
+}
+
+#collage {
+  background-image: url(./Media/letters-collage.png);
+  background-size: 100%;
+/*  opacity: 10%;*/
+  height: 300px;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cert_def {
+  transform: scale(1) rotate(0);
+  -webkit-transition: all .75s ease;
+}
+
+#cert_def:hover {
+  transform: scale(1.05) rotate(0.5deg);
+  filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 0.2));
+  -webkit-transition: all .75s ease;
+}
+
+input[type=text] {
+  font-family: "DancingScript";
+  font-size: 4vw;
+  border: 0px solid #555;
+  text-align: center;
+  background-color: transparent;
+  text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; 
+}
+
+input[type=text]:focus {
+  border: 0px solid #555;
+}
+
+.average_section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content {
+  margin-left: 3%;
+  margin-right: 3%;
+  box-flex: inherit;
+}
+
+.simple_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_shadow {
+  padding: 5px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 0.3);
+  border-radius: 20px;
+  transform: scale(1);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+.img_shadow:hover{
+  box-shadow: 0 0 18px rgb(0 0 0 / 0.4);
+  transform: scale(1.005);
+}
+
+.cert {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+.big-margin {
+  margin-top: 175px;
+  margin-bottom: 175px;
+}
+
+.medium-margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.small-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img_producto_container {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.img_producto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+
