@@ -1,31 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/*
-@font-face {
-  font-family: "Atkinson";
-  src: url("./Fonts/AtkinsonHyperlegible_Regular.ttf" );
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Atkinson";
-  src: url("./Fonts/AtkinsonHyperlegible-Bold.ttf");
-  font-weight: normal;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Atkinson";
-  src: url("./Fonts/AtkinsonHyperlegible-BoldItalic.ttf");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Atkinson";
-  src: url("./Fonts/AtkinsonHyperlegible-Italic.ttf");
-  font-weight: normal;
-  font-style: italic;
-}*/
 
 @font-face {
   font-family: "Old English Text";
@@ -309,7 +282,6 @@ input[type=text]:focus {
   margin-bottom: 30px;
 }
 
-
 .big-margin {
   margin-top: 175px;
   margin-bottom: 175px;
@@ -324,36 +296,3 @@ input[type=text]:focus {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.img_producto_container {
-  width: 500px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  cursor: zoom-in;
-}
-.img_producto {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: transform 0.5s ease-out;
-}
-
-
